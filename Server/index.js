@@ -2,17 +2,15 @@ const mongoose = require("mongoose");
 const express = require("express");
 const PORT = process.env.PORT || 3001;
 const cors = require("cors");
-require('dotenv').config();
+require("dotenv").config();
 
 const app = express();
-const mongodbConnectionString = process.env.MONGODB_URI
+const mongodbConnectionString = process.env.MONGODB_URI;
 
 // connecting to mongodb server
 main().catch((err) => console.log(err));
 async function main() {
-  await mongoose.connect(
-    'mongodbConnectionString'
-  );
+  await mongoose.connect(mongodbConnectionString);
 }
 
 app.use(
@@ -35,8 +33,7 @@ const formDataSchema = new mongoose.Schema({
   dateOfDropoff: String,
 });
 
-const carsSchema = new mongoose.Schema({
-});
+const carsSchema = new mongoose.Schema({});
 
 const FormDataModel = mongoose.model("vehicle", formDataSchema);
 const carsModel = mongoose.model("car", carsSchema);
@@ -47,8 +44,8 @@ app.get("/server", async (req, res) => {
     const cars = await carsModel.find();
     const data = {
       vehicles,
-      cars
-    }
+      cars,
+    };
     res.json(data);
   } catch (err) {
     console.log(err);
