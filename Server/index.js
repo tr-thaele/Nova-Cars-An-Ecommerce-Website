@@ -22,7 +22,9 @@ app.use(express.static("public"));
 
 app.use(express.json());
 
-app.use(cors({origin: true, credentials: true}));
+app.use(cors({
+    origin: 'http://localhost:3000' // Allow requests from your frontend
+}));
 
 const formDataSchema = new mongoose.Schema({
   category: String,
