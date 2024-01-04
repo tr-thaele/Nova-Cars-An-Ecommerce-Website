@@ -64,7 +64,7 @@ const Contact = () => {
             className="confirm-cont"
           >
             <img src="check.png" alt="" />
-            <p>Subscribed succesfully!</p>
+            <p>Sent succesfully!</p>
           </div>
           <label htmlFor="name">
             Name<b>*</b>
