@@ -57,7 +57,7 @@ app.post("/server", async (req, res) => {
   try {
     const formData = new FormDataModel(req.body);
     await formData.save();
-    console.log("Form data saved successfully!", formData);
+    console.log("Form data saved successfully!");
   } catch (error) {
     console.log(error);
     res.status(500).send("Error saving form data!");
