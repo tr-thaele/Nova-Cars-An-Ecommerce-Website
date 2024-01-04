@@ -22,7 +22,7 @@ app.use(express.static("public"));
 
 app.use(express.json());
 
-app.use(cors());
+app.use(cors({origin: true, credentials: true}));
 
 const formDataSchema = new mongoose.Schema({
   category: String,
