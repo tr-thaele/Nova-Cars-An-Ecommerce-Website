@@ -96,7 +96,7 @@ const Book = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:3001/server", formData);
+      await axios.post("https://nova-cars-api.onrender.com/server", formData);
       console.log(`Your data has been submitted successfully!`, formData);
     } catch (err) {
       console.log("the error is" + err);
