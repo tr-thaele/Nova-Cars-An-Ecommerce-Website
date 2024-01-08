@@ -11,6 +11,6 @@ Nova-Cars is a MERN stack website designed and built for effortless car explorat
 » Node.js - Express.js
 » MongoDB
 
-## Screenshots of the Project 📸
+# Screenshots of the Project 📸
 <h2 align="center">Home Page 🏡</h2>
-![Screenshots](./Client/public/screenshots.png)
+![Screenshots](Client/public/screenshots.png)
