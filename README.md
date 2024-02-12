@@ -12,9 +12,8 @@ I built the app to make these two things easy, effortless, and seamless:
 
 ## QUICK START
 👉 Live Demo🔗: [Nova-Cars Website](https://nova-cars.onrender.com)
-# Built With:
 
-##  FEATURES
+## FEATURES
 - Navigation and exploration of a wide variety of cars, including SUVs, trucks, and vans.
 - Advanced searching for reserving and booking cars.
 - Allowing users to choose pickup/dropoff locations and dates.
@@ -27,6 +26,6 @@ I built the app to make these two things easy, effortless, and seamless:
 - **Front-end:** React.js, Material-UI, Bootstrap, JavaScript
 - **Back-end:** Node.js, Express.js, MongoDB, Mongoose, Axios
 
-# Screenshots of the Project 📸
+## SCREENSHOTS OF THE PROJECT 📸
 <h2 align="center">Home Page 🏡</h2>
 <img src="Client/public/screenshots.png" alt="screenshots"/>
