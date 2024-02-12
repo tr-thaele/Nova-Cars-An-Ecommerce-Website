@@ -29,6 +29,7 @@ I built the app to make these two things **easy, effortless, and seamless:**
 ##  SCREENSHOTS OF THE PROJECT 📸
 <h2 align="center">Home Page 🏡</h2>
 <img src="Client/public/screenshots.png" alt="screenshots"/>
+<h2 align="center">Other Sections</h2>
 ![image](https://github.com/dagmfre/Nova-Cars-An-Ecommerce-Website/assets/96683816/b1df0e7e-8a29-4337-8970-2ca3256381bb)
-![image](https://github.com/dagmfre/Nova-Cars-An-Ecommerce-Website/assets/96683816/a10d99c6-ca35-4237-b8d9-1157e5d4f6d1)
-![image](https://github.com/dagmfre/Nova-Cars-An-Ecommerce-Website/assets/96683816/3602d3d4-a508-405c-a9c1-30a247d44476)
+<!-- ![image](https://github.com/dagmfre/Nova-Cars-An-Ecommerce-Website/assets/96683816/a10d99c6-ca35-4237-b8d9-1157e5d4f6d1)
+![image](https://github.com/dagmfre/Nova-Cars-An-Ecommerce-Website/assets/96683816/3602d3d4-a508-405c-a9c1-30a247d44476) -->
