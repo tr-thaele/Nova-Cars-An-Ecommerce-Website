@@ -33,11 +33,7 @@ export default function BasicAccordion() {
       <div className="faq-title-cont">
         <h3>FAQ</h3>
         <img src="hr.svg" alt="" />
-        <p>
-          Frequently Asked Questions about our premier car sales platform.
-          Discover key information from most common questions asked and enhance
-          your experience with Nova."
-        </p>
+      
       </div>
 
       <div className="accordion-cont">

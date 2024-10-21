@@ -47,11 +47,11 @@ const Contact = () => {
           </p>
           <div className="info-cont">
             <i class="fa-solid fa-square-phone"></i>
-            <p>(123) -456-789</p>
+            <p>+27 7XX XXX XXXX</p>
           </div>
           <div className="info-cont">
             <i class="fa-regular fa-envelope"></i>
-            <p>Nova@gmail.com</p>
+            <p>support@aem.co.za</p>
           </div>
           <div className="info-cont">
             <i class="fa-solid fa-location-dot"></i>

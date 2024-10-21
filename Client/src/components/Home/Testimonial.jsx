@@ -18,15 +18,12 @@ const Testimonial = () => {
             ></i>
 
             <p>
-              Nova exceeded my expectations for online car buying. The website's
-              simplicity, detailed info, and secure process made it a great
-              experience. I highly recommend Nova for anyone looking for an easy
-              and reliable way to purchase a car
+              Comment Comment
             </p>
           </div>
           <div className="photo-cont">
             <div>
-              <img src="photo.png" className="photo" alt="" />
+              <img src="2.png" className="photo" alt="" />
             </div>
 
             <div>
@@ -43,15 +40,12 @@ const Testimonial = () => {
               style={{ color: "#ffffff" }}
             ></i>
             <p>
-              I found my dream car on Nova's website, and it was a breeze to
-              buy. The website is user-friendly, the car options are diverse,
-              and the whole process is transparent and efficient. Nova is my
-              go-to for hassle-free online car shopping.
+             Comment Comment
             </p>
           </div>
           <div className="photo-cont">
             <div>
-              <img className="photo2" src="photo2.png"alt="" />
+              <img className="photo2" src="1.png"alt="" />
             </div>
 
             <div>

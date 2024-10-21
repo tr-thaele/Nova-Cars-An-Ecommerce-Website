@@ -40,11 +40,11 @@ const Footer = () => {
         </p>
         <div className="info-cont">
           <i class="fa-solid fa-square-phone"></i>
-          <p>(123) -456-789</p>
+          <p>+27 7XX XXX XXXX</p>
         </div>
         <div className="info-cont">
           <i class="fa-regular fa-envelope"></i>
-          <p>Nova@gmail.com</p>
+          <p>support@aem.co.za</p>
         </div>
 
         <div className="social-cont">
@@ -56,7 +56,7 @@ const Footer = () => {
       </div>
       <div className="footer-childs">
         <h1>COMPANY</h1>
-        <a href="#/">New York</a>
+        <a href="#/">Johannesburg</a>
         <a href="#/">Brand</a>
         <a href="#/">car dealers</a>
         <a href="#/">car reviews</a>
@@ -87,7 +87,7 @@ const Footer = () => {
           <p>Subscribed succesfully!</p>
         </div>
       </div>
-      <p className="copy">©2023, Nova. All rights reserved.</p>
+      <p className="copy">©2024, AEM. All rights reserved.</p>
     </div>
   );
 };

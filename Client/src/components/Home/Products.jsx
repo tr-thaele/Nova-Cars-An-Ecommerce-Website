@@ -81,12 +81,11 @@ const Products = () => {
           <div className="cars1-topic">
             <h1>FEATURED CARS</h1>
             <img src="hr.svg" alt="" />
-            <p>“Nova's Special Picks for Seamless City Driving.”</p>
           </div>
           <div className="cars1-main">
             <div className="cars1-main-child">
               <div className="car-cont1">
-                <img className="f1-car" src="f1_car.jpg" alt="" />
+                <img className="f1-car" src="1.png" alt="" />
               </div>
               <div className="car-cont2">
                 <h1>Marcedes-Benz-CL5</h1>
@@ -96,7 +95,7 @@ const Products = () => {
                   <p>85,000$</p>
                 </div>
                 <ul>
-                  <li>Year: 2023</li>
+                  <li>Year: 2024</li>
                   <li>Model: S-Class</li>
                   <li>Mileage: 12,000 miles</li>
                   <li>VIN: MBC123XYZ789456</li>
@@ -113,7 +112,7 @@ const Products = () => {
             </div>
             <div className="cars2-main-child">
               <div className="car-cont1">
-                <img className="f2-car" src="f3_car.jpg" alt="" />
+                <img className="f2-car" src="2.png" alt="" />
               </div>
               <div className="car-cont2">
                 <h1>BMW M4</h1>
@@ -123,7 +122,7 @@ const Products = () => {
                   <p>54,000$</p>
                 </div>
                 <ul>
-                  <li>Year: 2023</li>
+                  <li>Year: 2024</li>
                   <li>Model: Turismo M4</li>
                   <li>Mileage: 9,000 miles</li>
                   <li>VIN: NMT123JKZ767944</li>
@@ -140,7 +139,7 @@ const Products = () => {
             </div>
             <div className="cars3-main-child">
               <div className="car-cont1">
-                <img className="f3-car" src="f2_car.jpg" alt="" />
+                <img className="f3-car" src="4.png" alt="" />
               </div>
               <div className="car-cont2">
                 <h1>Audi A1</h1>
@@ -150,7 +149,7 @@ const Products = () => {
                   <p>25,400$</p>
                 </div>
                 <ul>
-                  <li>Year: 2023</li>
+                  <li>Year: 2024</li>
                   <li>Model: A1 Hatchback</li>
                   <li>Mileage: 10,000 miles</li>
                   <li>VIN: HKL623DFG735667</li>
@@ -169,12 +168,12 @@ const Products = () => {
         </div>
         <div className="cars-child2">
           <div className="cars2-topic">
-            <h1>PRODUCTS</h1>
+            <h1>Our Products</h1>
             <img src="hr.svg" alt="" />
-            <p>
-              “Nova Cars: Builted for those who demand excellence, performance,
+            {/* <p>
+              A Cars: Builted for those who demand excellence, performance,
               and a touch of luxury on the road.”
-            </p>
+            </p> */}
           </div>
           <div className="cars2-main">
             <div className="tab-btns-cont">
@@ -184,7 +183,7 @@ const Products = () => {
                 }}
                 className={`tab-btns ${clickedTabs.A ? "tab-clicked" : ""}`}
               >
-                <p>Cars</p>
+                <p>PARTS</p>
               </div>
               <div
                 onClick={() => {
@@ -192,7 +191,7 @@ const Products = () => {
                 }}
                 className={`tab-btns ${clickedTabs.B ? "tab-clicked" : ""}`}
               >
-                <p>SUV/MUV</p>
+                <p>TRUCKS</p>
               </div>
               <div
                 onClick={() => {
@@ -200,7 +199,7 @@ const Products = () => {
                 }}
                 className={`tab-btns ${clickedTabs.C ? "tab-clicked" : ""}`}
               >
-                <p>Tracks</p>
+                <p>WHEELS</p>
               </div>
               <div
                 onClick={() => {
@@ -208,7 +207,7 @@ const Products = () => {
                 }}
                 className={`tab-btns ${clickedTabs.D ? "tab-clicked" : ""}`}
               >
-                <p>Vans</p>
+                <p>PARTS</p>
               </div>
             </div>
             <Car clickState={clickedTabs.A} />

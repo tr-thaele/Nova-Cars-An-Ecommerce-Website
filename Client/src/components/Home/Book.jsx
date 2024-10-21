@@ -128,8 +128,8 @@ const Book = () => {
             onChange={handleCategoryChange}
           >
             <option>Select Vehicle Category</option>
-            <option value="Car">Car</option>
-            <option value="SUV/MUV">SUV/MUV</option>
+            <option value="Car">Trucks</option>
+            <option value="SUV/MUV">Parts</option>
             <option value="Track">Track</option>
             <option value="Van">Van</option>
           </select>
@@ -177,12 +177,12 @@ const Book = () => {
           >
             <option>Select pick up location</option>
             <option value="Los Angeles, California">
-              Los Angeles, California
+              Johannesburg, South Africa
             </option>
-            <option value="Miami, Florida">Miami, Florida</option>
-            <option value="New York City">New York City</option>
-            <option value="Austin, Texas">Austin, Texas</option>
-            <option value="Chicago, Illinois">Chicago, Illinois</option>
+            <option value="Miami, Florida">Johannesburg</option>
+            <option value="New York City">Cape Town</option>
+            <option value="Austin, Texas">Kwa-Zulu Natal</option>
+            <option value="Chicago, Illinois">Pretoria</option>
           </select>
         </div>
 
@@ -202,12 +202,12 @@ const Book = () => {
           >
             <option>Select drop off location</option>
             <option value="Los Angeles, California">
-              Los Angeles, California
+            Johannesburg, South Africa
             </option>
-            <option value="Miami, Florida">Miami, Florida</option>
-            <option value="New York City">New York City</option>
-            <option value="Austin, Texas">Austin, Texas</option>
-            <option value="Chicago, Illinois">Chicago, Illinois</option>
+            <option value="Miami, Florida">Johannesburg</option>
+            <option value="New York City">Cape Town</option>
+            <option value="Austin, Texas">Kwa-Zulu Natal</option>
+            <option value="Chicago, Illinois">Pretoria</option>
           </select>
         </div>
         <div className="select-cont5">

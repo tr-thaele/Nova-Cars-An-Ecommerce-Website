@@ -26,7 +26,7 @@ const Car = (props) => {
               <p>Free Supercharging</p>
             </div>
           </div>
-          <img className="prod prod1" src="prod1.png" alt="" />
+          <img className="prod prod1" src="6.png" alt="" />
           <div className="car-info-cont2">
             <div className="car-info">
               <i className="fa-solid fa-gas-pump"></i>
@@ -51,7 +51,7 @@ const Car = (props) => {
               <p>Free Supercharging</p>
             </div>
           </div>
-          <img className="prod prod6" src="prod6.png" alt="" />
+          <img className="prod prod6" src="7.png" alt="" />
           <div className="car-info-cont2">
             <div className="car-info">
               <i className="fa-solid fa-gas-pump"></i>
@@ -76,7 +76,7 @@ const Car = (props) => {
               <p>Free Supercharging</p>
             </div>
           </div>
-          <img className="prod prod3" src="prod3.png" alt="" />
+          <img className="prod prod3" src="8.png" alt="" />
           <div className="car-info-cont2">
             <div className="car-info">
               <i className="fa-solid fa-gas-pump"></i>
@@ -101,7 +101,7 @@ const Car = (props) => {
               <p>Free Supercharging</p>
             </div>
           </div>
-          <img className="prod prod4" src="prod4.png" alt="" />
+          <img className="prod prod4" src="9.png" alt="" />
           <div className="car-info-cont2">
             <div className="car-info">
               <i className="fa-solid fa-gas-pump"></i>
@@ -126,7 +126,7 @@ const Car = (props) => {
               <p>Free Supercharging</p>
             </div>
           </div>
-          <img className="prod prod5" src="prod5.png" alt="" />
+          <img className="prod prod5" src="10.png" alt="" />
           <div className="car-info-cont2">
             <div className="car-info">
               <i className="fa-solid fa-gas-pump"></i>
@@ -151,7 +151,7 @@ const Car = (props) => {
               <p>Free Supercharging</p>
             </div>
           </div>
-          <img className="prod prod2" src="prod2.png" alt="" />
+          <img className="prod prod2" src="11.png" alt="" />
           <div className="car-info-cont2">
             <div className="car-info">
               <i className="fa-solid fa-gas-pump"></i>
@@ -176,7 +176,7 @@ const Car = (props) => {
               <p>Free Supercharging</p>
             </div>
           </div>
-          <img className="prod prod7" src="prod7.png" alt="" />
+          <img className="prod prod7" src="12.png" alt="" />
           <div className="car-info-cont2">
             <div className="car-info">
               <i className="fa-solid fa-gas-pump"></i>
@@ -201,7 +201,7 @@ const Car = (props) => {
               <p>Free Supercharging</p>
             </div>
           </div>
-          <img className="prod prod8" src="prod8.png" alt="" />
+          <img className="prod prod8" src="13.png" alt="" />
           <div className="car-info-cont2">
             <div className="car-info">
               <i className="fa-solid fa-gas-pump"></i>

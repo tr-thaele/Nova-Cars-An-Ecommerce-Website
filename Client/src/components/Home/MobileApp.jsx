@@ -1,7 +1,7 @@
 const MobileApp = () => {
   return (
     <div className="mobile">
-      <div className="down-grid-cont">
+      {/* <div className="down-grid-cont">
         <div className="download-cont">
           <h1>Download The Free Nova App</h1>
           <p>for faster, easier booking and exclusive deals.</p>
@@ -23,7 +23,7 @@ const MobileApp = () => {
           </div>
         </div>
           <img className="mobile-img" src="mobile.png" alt="" />
-      </div>
+      </div> */}
     </div>
   );
 };

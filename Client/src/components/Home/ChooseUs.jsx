@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const ChooseUs = () => {
   return (
     <div className="choose-us-cont">
-      <img src="others.png" alt="" />
+      <img src="11.png" alt="" />
       <div className="choose-main-cont">
         <div className="choose-cont1">
           <p>Why Choose Us</p>
